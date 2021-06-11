@@ -4,8 +4,8 @@ function PiggyContainer({pigData})
 {
     //console.log(pigData)
     return (
-        <div className="ui grid container align-center">
-            {pigData.map(pig => <PiggyCard {...pig}/>)}
+        <div className="ui grid container  ">
+            {pigData.map(pig => <PiggyCard {...pig} className="three wide column"/>)}
         </div>
     )
 }
